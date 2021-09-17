@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+main {
+  font-family: "Open Sans", sans-serif;
+}
+
+.landing {
+  min-height: 100vh;
+  background-size: cover;
+  background: url(images/mobilePhone01.jpg) center center/ cover;
+  z-index: 2;
+  padding: 0rem 5rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 10vh;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  font-family: "EB Garamond", serif;
+
+  a {
+    text-decoration: none;
+
+    &:hover {
+      opacity: 0.7;
+      transition: ease-in-out 0.2s;
+      cursor: pointer;
+    }
+  }
+  li {
+    padding-left: 2rem;
+    font-size: 1.2rem;
+  }
+}
+
+#logo {
+  font-family: "EB Garamond", serif;
+  font-weight: lighter;
+  font-size: 2rem;
+}
+
+.main-icon {
+  color: white;
+  font-size: 2rem;
+  margin-left: 0.4rem;
+}
+
+.mint {
+  color: #64ffda;
+}
+
+.big-text {
+  position: absolute;
+  top: 18.5%;
+  right: 19%;
+  font-size: 4.5rem;
+  font-weight: 100;
+  font-family: "EB Garamond", serif;
+  font-style: italic;
+}
+
+.contact-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-text {
+  margin-top: 19rem;
+  font-size: 2rem;
+  font-family: "EB Garamond", serif;
+  font-style: italic;
+  border-style: solid;
+  padding: 0.8rem;
+  &:hover {
+    opacity: 0.7;
+    transition: ease-in-out 0.2s;
+    cursor: pointer;
+  }
+}
+
+.intro {
+  background: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider {
+  background: #64ffda;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+}
+
+.intro-text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 3rem;
+  color: rgb(233, 233, 233);
+}
+
+.hide {
+  background: black;
+  overflow: hidden;
+  span {
+    transform: translateY(100%);
+    display: inline-block;
+  }
+}
+
+// Main Title
+
+.about {
+  height: 100vh;
+  width: 100vw;
+  background: white;
+  text-align: center;
+  justify-content: center;
+
+  .about-title {
+    font-weight: 100;
+    margin-top: 3rem;
+    color: black;
+    font-size: 5rem;
+  }
+}
+
+.about-main {
+  display: flex;
+  width: 100vw;
+  .about-text {
+    width: 50%;
+    p {
+      margin: 4rem 1rem 0 1rem;
+      color: black;
+      font-size: 1.5rem;
+      font-family: "EB Garamond", serif;
+      justify-content: start;
+    }
+  }
+
+  .about-img {
+    margin-top: 1rem;
+    background: url(images/Andoni01.jpg) center center/cover no-repeat;
+    height: 100vh;
+    width: 50vw;
+  }
+}
+
+.jump-container {
+  margin-top: 6.5rem;
+  height: 100vh;
+  width: 100vw;
+}
+
+// Technology Container
+
+.technology-container {
+  margin-top: 9rem;
+  height: 50vh;
+  width: 100vw;
+
+  .technology-title {
+    margin: 3rem 0 0 2rem;
+    color: black;
+    font-size: 5rem;
+    font-weight: 100;
+    text-align: center;
+  }
+}
+.techPictures {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  .techIcon {
+    height: 8rem;
+    width: auto;
+    margin: 2rem;
+  }
+  .techIcon02 {
+    height: 5rem;
+    width: auto;
+    margin: 3rem 0 0 2rem;
+  }
+  .techIcon03 {
+    height: 10rem;
+    width: auto;
+    margin: 2rem;
+  }
+}
+
+@import "media";

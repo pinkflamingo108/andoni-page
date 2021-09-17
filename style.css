@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: white;
+}
+
+main {
+  font-family: "Open Sans", sans-serif;
+}
+
+.landing {
+  min-height: 100vh;
+  background-size: cover;
+  background: url(images/mobilePhone01.jpg) center center/cover;
+  z-index: 2;
+  padding: 0rem 5rem;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-height: 10vh;
+}
+
+.nav-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  font-family: "EB Garamond", serif;
+}
+
+.nav-links a {
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  opacity: 0.7;
+  -webkit-transition: ease-in-out 0.2s;
+  transition: ease-in-out 0.2s;
+  cursor: pointer;
+}
+
+.nav-links li {
+  padding-left: 2rem;
+  font-size: 1.2rem;
+}
+
+#logo {
+  font-family: "EB Garamond", serif;
+  font-weight: lighter;
+  font-size: 2rem;
+}
+
+.main-icon {
+  color: white;
+  font-size: 2rem;
+  margin-left: 0.4rem;
+}
+
+.mint {
+  color: #64ffda;
+}
+
+.big-text {
+  position: absolute;
+  top: 18.5%;
+  right: 19%;
+  font-size: 4.5rem;
+  font-weight: 100;
+  font-family: "EB Garamond", serif;
+  font-style: italic;
+}
+
+.contact-container {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contact-text {
+  margin-top: 19rem;
+  font-size: 2rem;
+  font-family: "EB Garamond", serif;
+  font-style: italic;
+  border-style: solid;
+  padding: 0.8rem;
+}
+
+.contact-text:hover {
+  opacity: 0.7;
+  -webkit-transition: ease-in-out 0.2s;
+  transition: ease-in-out 0.2s;
+  cursor: pointer;
+}
+
+.intro {
+  background: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.slider {
+  background: #64ffda;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+}
+
+.intro-text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 3rem;
+  color: #e9e9e9;
+}
+
+.hide {
+  background: black;
+  overflow: hidden;
+}
+
+.hide span {
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+  display: inline-block;
+}
+
+.about {
+  height: 100vh;
+  width: 100vw;
+  background: white;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.about .about-title {
+  font-weight: 100;
+  margin-top: 3rem;
+  color: black;
+  font-size: 5rem;
+}
+
+.about-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+}
+
+.about-main .about-text {
+  width: 50%;
+}
+
+.about-main .about-text p {
+  margin: 4rem 1rem 0 1rem;
+  color: black;
+  font-size: 1.5rem;
+  font-family: "EB Garamond", serif;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+.about-main .about-img {
+  margin-top: 1rem;
+  background: url(images/Andoni01.jpg) center center/cover no-repeat;
+  height: 100vh;
+  width: 50vw;
+}
+
+.jump-container {
+  margin-top: 6.5rem;
+  height: 100vh;
+  width: 100vw;
+}
+
+.technology-container {
+  margin-top: 9rem;
+  height: 50vh;
+  width: 100vw;
+}
+
+.technology-container .technology-title {
+  margin: 3rem 0 0 2rem;
+  color: black;
+  font-size: 5rem;
+  font-weight: 100;
+  text-align: center;
+}
+
+.techPictures {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.techPictures .techIcon {
+  height: 8rem;
+  width: auto;
+  margin: 2rem;
+}
+
+.techPictures .techIcon02 {
+  height: 5rem;
+  width: auto;
+  margin: 3rem 0 0 2rem;
+}
+
+.techPictures .techIcon03 {
+  height: 10rem;
+  width: auto;
+  margin: 2rem;
+}
+/*# sourceMappingURL=style.css.map */
